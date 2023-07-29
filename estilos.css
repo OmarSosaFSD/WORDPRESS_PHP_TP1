@@ -1,0 +1,73 @@
+*{
+    padding-left: 0.5%;
+}
+.nav_ppal{
+    border-left: 1rem solid blue;
+    padding: 1rem;
+}
+body {
+    background-color: rgb(227, 219, 219);
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+li {
+    color: rgb(10, 0, 0);
+    list-style-type: none;
+    display: inline;
+}
+h3 {
+    color: white;
+}
+h2 {
+    color: white;
+}
+.precios {
+    background-color: rgb(48, 43, 43);
+    border-radius: 1%;
+    display: block;
+    padding-left: 5%;
+}
+.compra {
+    background-color: rgb(115, 113, 241);
+    border-radius: 1%;
+    display: block;
+    padding-left: 5%;
+}
+.totales {
+    padding-left: 5%;
+    color:rgb(10, 0, 0);
+}
+.totales h2{
+    color:rgb(10, 0, 0);
+}
+footer {
+    margin: auto;
+    text-align: center;
+}
+.formulario h2{
+    color:rgb(10, 0, 0);
+    
+}
+.formulario {
+    margin: 1rem;
+    padding: 2rem;
+    padding: 1rem;
+    width:80%;
+    color:rgb(10, 0, 0);
+    text-align: center;
+}
+.contacto_input {
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+    margin: 0.5rem;
+    margin-left: 0.5rem;
+    padding: 1rem;
+}
+.contacto-btn {
+    width: 15%;
+    padding: 1rem;
+    border-radius: 5%;
+    font-size: 1.5rem;
+}
