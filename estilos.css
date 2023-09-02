@@ -16,6 +16,9 @@ li {
     list-style-type: none;
     display: inline;
 }
+h4 {
+    color: black;
+}
 h3 {
     color: white;
 }
@@ -70,4 +73,31 @@ footer {
     padding: 1rem;
     border-radius: 5%;
     font-size: 1.5rem;
+}
+.productos_descripcion h2 {
+    color: black;
+}
+.folleto_container {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    display: block;
+}
+.folleto_container img{
+    justify-content: center;
+    display: flex;
+    margin: auto;
+    margin-bottom: 2%;
+}
+.container_ofertas {
+    display: grid;
+    width: 80%;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: auto;
+}
+.img_ofertas{
+    display: flex;
+    justify-content: center;
+
 }

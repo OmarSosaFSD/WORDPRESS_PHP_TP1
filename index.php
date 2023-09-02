@@ -1,6 +1,6 @@
 <?php
 require_once("header.php");
-?>
+?><!--
     <div class="precios">
         <?php
         
@@ -38,7 +38,16 @@ require_once("header.php");
     <div class = "totales">
         <h2>Total Pesos: $<?php echo $totalPesos;?></h2>
         <h2>Total Dolares ($490): u$s<?php echo round($totalDolares);?></h2>
+    </div>-->
+    <div class="folleto_container">
+        <img src="./imagenes/folleto.JPG" alt="">
     </div>
+    <div class="container_ofertas">
+        <div class="img_ofertas"><img src="./imagenes/oferta1.JPG" alt=""></div>
+        <div class="img_ofertas"><img src="./imagenes/oferta2.JPG" alt=""></div>
+        <div class="img_ofertas"><img src="./imagenes/oferta3.JPG" alt=""></div>
+    </div>
+    
 <?php
 include("footer.php");
 ?>
